@@ -1,3 +1,16 @@
+# Rittal CMiii PDU check plugin for nagios
+
+This plugin allows you to monitor your rittal CMiii PDU's. The output is formatted so that Nagios can also use it to create performance graphs. You can monitor the following:
+
+- Whole PDU unit
+  - Status
+  - Total kWh used
+  - Total output Wattage
+- Phase (L1, L2 and L3)
+  - Status
+  - Output Wattage
+  - Input Voltage
+
 # Installation
 
 1 - upload check_rittal_cmiii.php to /usr/local/nagios/libexec and chmod +x
